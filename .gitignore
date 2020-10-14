@@ -1,0 +1,16 @@
+/coverage/
+/vendor/
+
+.env
+.byebug_history
+.aws-sam/*
+.bundle/
+samconfig.toml
+
+
+app/layers/shared/ruby/gems
+app/layers/shared/ruby/vendor
+app/layers/shared/layer.zip
+
+app/functions/ruby_example/lib
+.DS_Store

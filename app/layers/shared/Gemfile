@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+ruby '>= 2.5'
+
+gem 'activerecord'
+gem 'activesupport'
+gem 'bugsnag'
+gem 'dotenv'
+gem 'httparty'
+gem 'pg'
+gem 'plissken'

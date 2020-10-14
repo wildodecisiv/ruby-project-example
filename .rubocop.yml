@@ -1,0 +1,29 @@
+require: rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 2.5.0
+  DisabledByDefault: false
+  NewCops: disable
+  Exclude:
+    - vendor/bundle/**/*
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformValues:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Layout/HashAlignment:
+ Enabled: true
+
+Layout/ParameterAlignment:
+ Enabled: true
+
+Style/Encoding:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 125
